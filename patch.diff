@@ -1,0 +1,19 @@
+# HG changeset patch
+# User PokeEngineer
+# Date 1492128559 14400
+#      Thu Apr 13 20:09:19 2017 -0400
+# Node ID bd281663fa8a9fdab7cf6eb20528d1cffaaac5d9
+# Parent  be27dfd07d97336145e7f49d3fd200a6e902f85e
+Removed unused variable
+
+diff -r be27dfd07d97 -r bd281663fa8a src/archiver_zip.c
+--- a/src/archiver_zip.c	Fri Feb 17 20:39:45 2017 -0500
++++ b/src/archiver_zip.c	Thu Apr 13 20:09:19 2017 -0400
+@@ -1671,7 +1671,6 @@
+     ZIPfileinfo *finfo = NULL;
+     PHYSFS_Io *io = NULL;
+     PHYSFS_uint8 *password = NULL;
+-    int i;
+ 
+     /* if not found, see if maybe "$PASSWORD" is appended. */
+     if ((!entry) && (info->has_crypto))
