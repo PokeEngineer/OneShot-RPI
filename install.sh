@@ -52,10 +52,10 @@ cd journal/linux/image
 ./pixmapper.sh T10.png
 ./pixmapper.sh T11.png
 ./pixmapper.sh T12.png
-./pixmapper.sh T13.bmp
-./pixmapper.sh T14.bmp
-./pixmapper.sh T15.bmp
-./pixmapper.sh T16.bmp
+./pixmapper.sh T13.png
+./pixmapper.sh T14.png
+./pixmapper.sh T15.png
+./pixmapper.sh T16.png
 cd ../..
 qmake
 make
